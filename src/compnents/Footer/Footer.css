@@ -1,0 +1,39 @@
+.f-container{
+    justify-content: space-between;
+    
+}
+.f-left{
+    gap: 1rem;
+}
+.f-menu{
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+    font-weight: 500;
+}
+
+@media (max-width: 768px) {
+    .f-container{
+        flex-direction: column;
+        padding: 1rem;
+    }
+    .f-left{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .f-right{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    @media (max-width:260px) {
+        .f-container{
+            justify-content: center;
+        }
+        .f-container>div{
+            align-items: center !important;
+            text-align: center;
+        }
+        
+    }
+}

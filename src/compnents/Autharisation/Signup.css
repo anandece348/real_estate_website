@@ -1,0 +1,33 @@
+.signup-wrapper{
+    padding-top: 2rem;
+}
+.signup-container{
+    max-width: max-content;
+    border: 2px solid var(--blue);
+    border-radius: 10px;
+    margin: auto;
+}
+.form{
+    /* padding: 1rem; */
+}
+
+.form>div{
+    width: 100%;
+    padding: 0.5rem;
+}
+
+.signin-account{
+    justify-content: space-around;
+    row-gap: 0;
+    font-weight: 500;
+}
+.signin-link{
+    text-decoration: underline;
+    text-decoration-color: var(--blue);
+}
+.signin-link:hover{
+      color: var(--blue);
+      text-decoration: underline;
+      font-weight: bold;
+}
+ 
